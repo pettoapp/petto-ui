@@ -17,7 +17,7 @@
     "emotion-server": "^9.2.4",
     "emotion-theming": "^9.2.4",
     "next": "^6.1.1",
-    "petto_styleguide": "^0.0.2",
+    "petto_styleguide": "^0.0.3",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
