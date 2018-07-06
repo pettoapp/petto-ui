@@ -44,7 +44,7 @@ class Index extends React.Component {
                         To get started, edit <code>pages/index.js</code> and save to reload.
                     </p>
 
-                    <div className="row"> yay </div>
+                    <div className="row"> yayss </div>
                 </div>
             </div>
         );
