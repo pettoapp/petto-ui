@@ -1,9 +1,14 @@
 {
-  "name": "create-next-example-app",
+  "name": "petto-ui",
+  "version": "0.0.2",
+  "engines": {
+    "node": "8.x"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "heroku-postbuild": "npm run build",
+    "start": "next start -p $PORT",
     "precommit": "pretty-quick --staged",
     "format": "prettier --single-quote --trailing-comma es5 --write \"store.js\" --write \"components/**/*.js\" --write \"lib/*.js\" --write \"{pages,__{tests,mocks}__}/**/*.js\""
   },
