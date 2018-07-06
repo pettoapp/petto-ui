@@ -9,7 +9,7 @@ import Nav from '../components/nav';
 
 // Adds server generated styles to emotion cache.
 // '__NEXT_DATA__.ids' is set in '_document.js'
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && window.__NEXT_DATA__) {
     hydrate(window.__NEXT_DATA__.ids);
 }
 
